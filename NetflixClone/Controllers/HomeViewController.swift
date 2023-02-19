@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         homeFeedTable.tableHeaderView = headerView
     }
     private func configureNavbar(){
-        var image = UIImage(named: "netflixLogo1")
+        var image = UIImage(named: "netflixLogo")
         image = image?.withRenderingMode(.alwaysOriginal)
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
         
